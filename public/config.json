@@ -32,7 +32,7 @@
     },
     "configurationArguments": {
       "save": {
-        "url": "https://sfmc-journey-custom-activity.herokuapp.comjourneybuilder/save",
+        "url": "https://sfmc-journey-custom-activity.herokuapp.com/journeybuilder/save",
           "verb": "POST",
         "useJwt": false
        },
