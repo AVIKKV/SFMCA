@@ -24,7 +24,7 @@
             "body": "",
             "header": "",
             "format": "json",
-            "useJwt": true,
+            "useJwt": false,
             "timeout": 10000,
             "retryCount": 5,
             "retryDelay": 100
@@ -34,22 +34,22 @@
       "save": {
         "url": "https://sfmc-journey-custom-activity.herokuapp.comjourneybuilder/save",
           "verb": "POST",
-        "useJwt": true
+        "useJwt": false
        },
        "publish": {
         "url": "https://sfmc-journey-custom-activity.herokuapp.com/journeybuilder/publish",
            "verb": "POST",
-        "useJwt": true
+        "useJwt": false
        },
       "stop": {
         "url": "https://sfmc-journey-custom-activity.herokuapp.com/journeybuilder/stop",
            "verb": "POST",
-        "useJwt": true
+        "useJwt": false
       },
       "validate": {
         "url": "https://sfmc-journey-custom-activity.herokuapp.com/journeybuilder/validate",
         "verb": "POST",
-        "useJwt": true
+        "useJwt": false
       }
     },
     "wizardSteps": [
