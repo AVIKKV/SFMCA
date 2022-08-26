@@ -24,12 +24,14 @@
             "body": "",
             "header": "",
             "format": "json",
+            "useJwt": true,
             "timeout": 10000,
             "retryCount": 5,
             "retryDelay": 100
         }
     },
     "configurationArguments": {
+         "applicationExtensionKey": "9864f8f8-6f88-45b4-a206-98a2aaf4a154",
       "save": {
         "url": "https://sfmc-journey-custom-activity.herokuapp.com/journeybuilder/save",
           "verb": "POST",
