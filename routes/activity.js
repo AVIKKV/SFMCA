@@ -78,7 +78,7 @@ exports.execute = function(req, res) {
     // verification error -> unauthorized request
     if (err) {
       console.error(err);
-      return res.status(501).end();
+      return res.status(401).end();
     }
     if (decoded && decoded.inArguments && decoded.inArguments.length > 0) {
       var decodedArgs = decoded.inArguments[0];
