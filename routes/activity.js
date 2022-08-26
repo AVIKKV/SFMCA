@@ -77,7 +77,7 @@ exports.execute = function(req, res) {
 
     // verification error -> unauthorized request
     if (err) {
-      console.error(err);
+      console.error('LAAA');
       return res.status(401).end();
     }
     if (decoded && decoded.inArguments && decoded.inArguments.length > 0) {
